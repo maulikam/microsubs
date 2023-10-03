@@ -12,4 +12,4 @@ type Service interface {
 	Watermark(ctx context.Context, ticketID, mark string) (int, error)
 	AddDocument(ctx context.Context, doc *internal.Document) (string, error)
 	ServiceStatus(ctx context.Context) (int, error)
-}
+}	
